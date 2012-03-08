@@ -18,6 +18,7 @@
 #include <string>
 #include <iostream>
 #include <sstream>
+#include <ctype.h> // TODO: Could this be removed by tweaking #defines in Android.mk?
 #include "support.h"
 
 #include <sys/types.h>
